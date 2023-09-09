@@ -1,0 +1,33 @@
+
+getgenv().Kirbsware = {
+    Version = {
+        ["Gui"] = (false),
+    },
+    Underground = {
+        ["Enabled"] = (true), -- makes them aim Underground
+        ["Keybind"] = "Z",
+    },
+    Sky = {
+        ["Enabled"] = (true), -- makes them aim the sky
+        ["Keybind"] = "X",
+    },
+    PredictionBreaker = {
+        ["Enabled"] = (true), -- breaks the prediction
+        ["Keybind"] = "C",
+    },
+    VelocityMultiplier = {
+        ["Enabled"] = (true), -- multiplies the prediction
+        ["Keybind"] = "V",
+        ["Power"] = (5),
+    },
+    AimViewer = {
+        ["Enabled"] = (true),
+        ["Keybind"] = "T",
+        ["Width"] = (0.1), -- or 0.2, keep like this if you do not wanna have it thick
+        ["Color"] = Color3.fromRGB(255,0,0),
+    },
+}
+
+loadstring(game:HttpGet('https://kirbsware.xyz/V2'))()
+
+--Showcase video: https://streamable.com/gd4d3m
