@@ -17,7 +17,7 @@ local Notify = NotifyLibrary.Notify
 Notify(
     {
         Title = "Tenaki Smooth Lock",
-        Description = "Bruh Tf is this Obfuscator Shitty Asf Cracked By Paws#2140",
+        Description = "Cracked By _6.f on discord",
         Duration = 3
     }
 )
